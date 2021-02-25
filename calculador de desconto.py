@@ -1,0 +1,10 @@
+print('Vamos calcular o valor da mercadoria com desconto ')
+print()
+preço = int(input('Qual o preço da mercadoria?'))
+print()
+desconto = int(input('Qual a pecentagem de desconto?'))
+total = preço - preço*desconto/100
+print()
+print('O valor final é de: ')
+print()
+print("%.2f" % total)
