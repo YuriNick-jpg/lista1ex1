@@ -1,0 +1,12 @@
+print ('Agora vamos converter um intervalo de tempo em segundos!')
+print()
+dia = int(input(('Quantos dias? ')))
+print()
+hora = int(input(('Quantas horas? ')))
+print()
+minuto = int(input(('Quantos minutos? ')))
+print()
+segundo = int(input(('E quantos segundos? ')))
+print()
+soma = dia*24*60*60 + hora*60*60 + minuto*60 + segundo
+print (soma)
